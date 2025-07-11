@@ -1,0 +1,63 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Test/coverage
+.coverage
+*.cover
+.hypothesis/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Secrets and credentials
+.env
+*.key
+*.pem
+config.yaml
+secrets.json
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.spec
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Archives and backups
+*.zip
+*.tar.gz
+*.tar.xz
+*.bak
+
+# Generated images or video
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+
