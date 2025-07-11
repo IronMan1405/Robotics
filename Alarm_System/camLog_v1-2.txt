@@ -1,0 +1,15 @@
+[2025-07-09_13:01:25]Motion detected, video saved: /home/pi/Desktop/Alarm_System/motionVidsTg/2025-07-09_13:01:25.mp4
+[2025-07-09_13:02:16]Motion detected, video saved: /home/pi/Desktop/Alarm_System/motionVidsTg/2025-07-09_13:02:16.mp4
+[2025-07-09_13:03:37]Motion detected, video saved: /home/pi/Desktop/Alarm_System/motionVidsTg/2025-07-09_13:03:37.mp4
+[2025-07-09_13:04:14]Motion detected, video saved: /home/pi/Desktop/Alarm_System/motionVidsTg/2025-07-09_13:04:14.mp4
+[2025-07-09_13:04:40]Motion detected, video saved: /home/pi/Desktop/Alarm_System/motionVidsTg/2025-07-09_13:04:40.mp4
+[2025-07-09_13:05:21]Motion detected, video saved: /home/pi/Desktop/Alarm_System/motionVidsTg/2025-07-09_13:05:21.mp4
+[2025-07-09_13:06:42]Motion detected, video saved: /home/pi/Desktop/Alarm_System/motionVidsTg/2025-07-09_13:06:42.mp4
+[2025-07-09_13:20:23]Motion detected, video saved: /home/pi/Desktop/Alarm_System/motionVidsTg/2025-07-09_13:20:23.mp4
+[2025-07-09_13:29:18]Motion detected, video saved: /home/pi/Desktop/Alarm_System/motionVidsTg/2025-07-09_13:29:18.mp4
+[2025-07-09_15:06:11]Motion detected, video saved: /home/pi/Desktop/Alarm_System/motionVidsTg/2025-07-09_15:06:11.mp4
+[2025-07-09_15:06:36]Motion detected, video saved: /home/pi/Desktop/Alarm_System/motionVidsTg/2025-07-09_15:06:36.mp4
+[2025-07-09_15:26:59]Motion detected, video saved: /home/pi/Desktop/Alarm_System/motionVidsTg/2025-07-09_15:26:59.mp4
+[2025-07-09_15:27:24]Motion detected, video saved: /home/pi/Desktop/Alarm_System/motionVidsTg/2025-07-09_15:27:24.mp4
+[2025-07-09_15:27:48]Motion detected, video saved: /home/pi/Desktop/Alarm_System/motionVidsTg/2025-07-09_15:27:48.mp4
+[2025-07-09_15:28:19]Motion detected, video saved: /home/pi/Desktop/Alarm_System/motionVidsTg/2025-07-09_15:28:19.mp4
