@@ -32,7 +32,7 @@ while True:
             if class_id < len(classes):
                 label = classes[class_id]
 
-                if label == 'NA':
+                if label == 'N/A':
                     continue
 
                 box = detections[0, 0, i, 3:7] * np.array([w, h, w, h])
