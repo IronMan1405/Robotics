@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import os
 
-labels_path = os.path.expanduser('~/mobilenet_ssd/coco_labels.txt')
+labels_path = os.path.expanduser('coco_labels.txt')
 with open(labels_path, 'r') as f:
     classes = [line.strip() for line in f.readlines()]
 
