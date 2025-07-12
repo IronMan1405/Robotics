@@ -2,7 +2,7 @@ import torch
 import cv2
 import time
 
-model = torch.hub.load('ultralytics/yolov5', 'yolov5m', pretrained = True)
+model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained = True)
 model.conf = 0.6 #confidence threshold
 
 # print(f"\n\n{model.names}\n\n")

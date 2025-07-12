@@ -1,10 +1,14 @@
 import cv2
 
 # Load the pre-trained Haar Cascade classifier for face detection
-face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+# face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # Start video capture (0 = default webcam)
 cap = cv2.VideoCapture(0)
+
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 320)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 240)
 
 while True:
     # Read each frame from the webcam
@@ -18,8 +22,8 @@ while True:
     # Detect faces in the image
     faces = face_cascade.detectMultiScale(
         gray,
-        scaleFactor=1.1,     # how much the image size is reduced at each image scale
-        minNeighbors=7,      # how many neighbors each candidate rectangle should have to retain it
+        scaleFactor=1.2,     # how much the image size is reduced at each image scale
+        minNeighbors=4,      # how many neighbors each candidate rectangle should have to retain it
         minSize=(30, 30)     # minimum object size
     )
 
