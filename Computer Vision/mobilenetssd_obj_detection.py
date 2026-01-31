@@ -2,8 +2,7 @@ import cv2
 import numpy as np
 import os
 
-labels_path = os.path.expanduser('coco_labels.txt')
-with open(labels_path, 'r') as f:
+with open('coco_labels.txt', 'r') as f:
     classes = [line.strip() for line in f.readlines()]
 
 model_path = os.path.expanduser('~/mobilenet_ssd/ssd_mobilenet_v1_coco_11_06_2017/orzen_inference_graph.pb')
@@ -32,7 +31,7 @@ while True:
             if class_id < len(classes):
                 label = classes[class_id]
 
-                if label == 'N/A':
+                if label == 'NA':
                     continue
 
                 box = detections[0, 0, i, 3:7] * np.array([w, h, w, h])
